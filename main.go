@@ -23,7 +23,7 @@ func main() {
 			fmt.Print(currentTime.Hour(), ":", currentTime.Minute(), ":", currentTime.Second())
 			fmt.Println(" Faltam 10 segundos. \a")
 			fmt.Println(" Se prepare!! ")
-			alertTime = alertTime.Add(310 * time.Second)
+			alertTime = alertTime.Add(300 * time.Second)
 		}
 
 		// Aguarda por um curto período antes de verificar novamente
